@@ -1,0 +1,13 @@
+﻿<Window x:Class="MaxFlowMinCut.Wpf.View.HistoryView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:graphViewerGdi="clr-namespace:Microsoft.Msagl.GraphViewerGdi;assembly=Microsoft.Msagl.GraphViewerGdi"
+        xmlns:visualizer="clr-namespace:MaxFlowMinCut.Wpf.Visualizer"
+        xmlns:vm="clr-namespace:MaxFlowMinCut.Wpf.ViewModel"
+        xmlns:userControl="clr-namespace:MaxFlowMinCut.Wpf.UserControl"
+        AllowsTransparency="False"
+        Title="History" Height="600" Width="700">
+    <ScrollViewer>
+        <StackPanel x:Name="StepsStackPanel" />
+    </ScrollViewer>
+</Window>

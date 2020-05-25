@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MaxFlowMinCut.Lib.Graph">
+    <Position X="1.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Network\Graph.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Edges" />
+      <Property Name="Nodes" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MaxFlowMinCut.Lib.Algorithm.FordFulkerson" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAEAAAAAgAAAgAAAAAAIAACCAAAAAAAAAUJAACA=</HashCode>
+      <FileName>Algorithm\FordFulkerson.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaxFlowMinCut.Lib.Network.Edge">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAACAAEAAQAAAAAAAAgAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Network\Edge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MaxFlowMinCut.Lib.Network.Node">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgCAAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Network\Node.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
